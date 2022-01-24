@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:wght@900&family=Red+Hat+Display:wght@300&display=swap" rel="stylesheet">
+  <link rel="icon" type="image/jpg" sizes="32x32" href="./images/Xplicit_Creations001.jpg">
+  <link rel="stylesheet" href="styles.css">
+  
+  <title>Ibraheem Damilare | Sunnyside agency landing page</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+    .unique {background-image: url("test.jpg");background-position: centre; background-attachment: fixed; 
+    background-size: cover; background-repeat:no-repeat; height: 1000px;}
+    .Graphic {background-image: url("../images/mobile/image-graphic-design.jpg");background-position: centre;  
+    background-size: cover; background-repeat:no-repeat; height: 1600px;}
+    .Photography {background-image: url("../images/mobile/image-photography.jpg");background-position: centre;  
+    background-size: cover; background-repeat:no-repeat; height: 1600px;}
+    .main {position: relative;}
+    .floor {position:absolute; bottom: 320px; left:0}
+    .gray-mine {color: hsl(210, 4%, 67%); letter-spacing: 7px;}
+
+  </style>
+</head>
+<body>
+  <div class=" unique ">
+    <nav class="flex justify-between">
+      <div class="pt-8 px-6">
+        <img src="../images/logo.svg" alt="Sunnyside logo">
+      </div>
+      
+      <div>
+       
+        <div id="burger" class="  ">
+          <svg id="burger" class="w-10 h-16 pt-7 cursor-pointer md:hidden" fill="none" stroke="white" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path></svg>
+        </div> 
+        <ul id="menu" class=" absolute md:static z-10 hidden md:grid md:grid-cols-4 md:mr-10 md:py-8 font-['Fraunces']  text-sm">
+          <li class="text-white">About</li>
+          <li class="text-white">Services</li>
+          <li class="text-white">Projects</li>
+          <li class=" bg-yellow-400 md:bg-white rounded-lg px-2 text-md w-20 h-8 pt-1">CONTACT</li>
+        </ul>
+      </div>
+         
+    </nav>
+    <div class="bg relative ">
+      <p class="  text-6xl text-center pt-16 text-white font-['Fraunces'] font-black uppercase ">  We are creatives </p>
+      <div class=" flex justify-center pt-20"> <img src="../images/icon-arrow-down.svg" alt="arrow-down"> </div>
+    </div>
+  </div>                
+ 
+  <div class="md:grid md:grid-cols-2" dir="rtl">
+    <div>
+      <img src="../images/desktop/image-transform.jpg" alt="image-transform">
+    </div>
+    <div>
+      <div class=""><h2 class=" font-bold  text-3xl font-['Fraunces'] pt-20 pb-12 pl-20 pr-12 " dir="ltr">Transform your brand</h2></div>
+      <p class=" pb-20 pl-20 pr-12 font-['Barlow'] text-{18px}" dir="ltr">We are a full-service creative agency specializing in helping brands grow fast. 
+        Engage your clients through compelling visuals that do most of the marketing for you.
+      </p>
+      <div class="pt-6 pb-40 flex justify-end pl-20"><p class="uppercase font-['Barlow'] font-bold text-sm bg-red-200 flex " dir="ltr">Learn more</p></div>
+    </div>
+  </div>
+  <div class="md:grid md:grid-cols-2">
+    <div>
+      <img src="../images/desktop/image-stand-out.jpg" alt="image-stand-out">
+    </div>
+    <div>
+      <h2 class="font-bold  text-3xl font-['Fraunces'] pt-20 pb-12 pl-20 pr-12" > Stand out to the right audience </h2>
+      <p class="pb-20 pl-20 pr-12 font-['Barlow'] text-{18px}"> Using a collaborative formula of designers, researchers, photographers, 
+        videographers, and copywriters, we’ll build and extend your brand in digital places.</p>
+      <div class="pt-6 pb-40 flex justify-start pl-20"> <p class="uppercase font-['Barlow'] font-bold text-sm bg-red-200 flex"> Learn more</p> </div>
+    </div>
+  </div>
+  <div class="md:grid md:grid-cols-2">
+    <div class="Graphic main ">
+      <div class="pb-40 floor">
+        <h2 class="font-['Fraunces'] font-bold text-center text-3xl pb-12 "> Graphic design </h2>
+        <p class="font-['Barlow'] text-{18px} px-40 text-[hsl(167, 40%, 24%)] "> Great design makes you memorable. 
+          We deliver artwork that underscores your brand message and captures 
+          potential clients’ attention. </p>
+        
+      </div>
+    </div>
+    <div class="Photography main">
+      <div class="pb-40 floor"> 
+         <h2 class="font-['Fraunces'] font-bold text-center text-3xl pb-12 "> Photography </h2>
+        <p class="font-['Barlow'] text-{18px} px-40 text-[hsl(198, 62%, 26%)]"> 
+          Increase your credibility by getting the most stunning, high-quality photos
+          that improve your business image.
+        </p>
+      </div>
+    </div>
+  </div>  
+  <h3 class="text-center text-md tracking-widest pt-32 uppercase font-bold font-['Fraunces'] gray-mine">Client testimonials</h3>
+  <div class="md:grid grid-cols-3">
+    <div class>
+      <div class=" md:pt-32  pt-12"><img class="mx-auto rounded-full overflow-hidden  " src="../images/image-emily.jpg" alt="Emily"></div>
+      <p class="text-center font-['Fraunces'] px-20 pt-12"> 
+        We put our trust in Sunnyside and they delivered, making sure our needs were met and 
+        deadlines were always hit. 
+      </p> 
+      <p class="pt-6 text-center font-['Fraunces'] px-20 font-semibold"> Emily R. </p> 
+      <p class=" text-center font-['Fraunces'] px-20 md:pb-20"> Marketing Director </p>
+      
+    </div> 
+    <div class="">
+      <div class="pt-12 md:pt-32"></div><img class="rounded-full mx-auto" src="../images/image-thomas.jpg" alt="Thomas">
+      <p class="text-center font-['Fraunces'] px-16 pt-12"> 
+        Sunnyside’s enthusiasm coupled with their keen interest in our brand’s success 
+        made it a satisfying and enjoyable experience.  
+      </p>   
+      <p class="pt-6 text-center font-['Fraunces'] px-20 font-semibold"> Thomas S. </p>    
+      <p class=" text-center font-['Fraunces'] px-20">Chief Operating Officer</p>
+       
+    </div> 
+    <div>
+      <div class="pt-12 md:pt-32"><img class="rounded-full mx-auto" src="../images/image-jennie.jpg" alt="Jennie"></div>
+      <p class="text-center font-['Fraunces'] px-20 pt-12">  
+        Incredible end result! Our sales increased over 400% when we worked with Sunnyside. 
+        Highly recommended! 
+      </p>
+      <p class="pt-6 text-center font-['Fraunces'] px-20 font-semibold"> Jennie F. </p>  
+      <p class=" text-center font-['Fraunces'] px-20 pb-12"> Business Owner </p>
+      
+    </div> 
+  </div>
+  <div class="md:grid md:grid-cols-4">
+  
+    <div class=""> <img src="../images/desktop/image-gallery-milkbottles.jpg" alt="milk-bottles" > </img>  </div>
+    <div class=""> <img src="../images/desktop/image-gallery-orange.jpg" alt="orange" > </img> </div>
+    <div> <img src="../images/desktop/image-gallery-cone.jpg" alt="cone"> </div>
+    <div>  <img src="../images/desktop/image-gallery-sugarcubes.jpg" alt="sugar-cubes">  </div>
+
+  </div>
+  <div class="bg-green-300">
+    <div class=" pt-20 pb-10 " >
+      <img class="mx-auto" src="../images/logo.svg" alt="">
+    </div>
+    <div class="grid grid-cols-3">
+      
+      <div>
+
+      </div>
+      <div class="pb-24">
+        <ul class="flex justify-around">
+        <li class="text-green-800 font-['Fraunces']">About</li>
+        <li class="text-green-800 font-['Fraunces']">Services</li>
+        <li class="text-green-800 font-['Fraunces']"> Projects</li>
+       
+        </ul>
+      </div>
+      <div>
+
+      </div>
+    </div>
+    <div class="grid grid-cols-3">
+      <div>
+
+      </div>
+        
+      <div class="flex justify-around pb-12">
+        <div><img src="../images/icon-facebook.svg" alt=""></div>
+        <div><img src="../images/icon-instagram.svg" alt=""></div>
+        <div><img src="../images/icon-twitter.svg" alt=""></div>
+        <div><img src="../images/icon-pinterest.svg" alt=""></div>
+      </div>
+      <div>
+
+      </div>
+    </div>
+  </div>
+  
+    <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Ibraheem Damilare</a>.
+  </div>
+  <script src="index.js"></script>
+</body>
+</html>
